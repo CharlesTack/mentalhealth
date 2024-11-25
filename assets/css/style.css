@@ -28,10 +28,13 @@ body {
 /* Navbar */
 .navbar {
     background-color: var(--highlight-color);
+    color: var(--tertiary-color);
 }
 /* Footer / Contact */
-#contact {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    padding-bottom: 3rem;
+.footer {
+    background-color: var(--highlight-color);
+    color: var(--tertiary-color);
+}
+.footer i {
+    color: var(--tertiary-color);
 }
