@@ -81,6 +81,10 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar {
     background-color: var(--highlight-color);
     color: var(--tertiary-color);
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
 }
 
 /* Navbar elements */
@@ -143,6 +147,21 @@ h1, h2, h3, h4, h5, h6, p {
 /* Add margin to the top of the External section */
 #external {
     margin-top: 40px; /* Adjust the value as needed */
+}
+
+/* External links section */
+#external-links {
+    margin-bottom: 40px; /* Adjust the value as needed to increase the gap */
+}
+
+#external-links h4 {
+    font-family: var(--secondary-font);
+    margin-top: 20px; /* Adjust the value as needed to spread them out */
+    color: var(--primary-color); /* Change color to primary-color */
+}
+
+#external-links a button {
+    margin-left: 12px; /* Align with the left-hand edge of the text */
 }
 
 /* Disclaimer section */
@@ -208,6 +227,14 @@ button:hover {
     color: var(--highlight-color-light); /* Reverse colors on hover */
 }
 
+/* Carousel control button styles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--tertiary-color);
+    border-radius: 50%;
+    padding: 10px; /* Optional: Add some padding for better visibility */
+}
+
 /* Add vertical space between card elements */
 .card {
     margin-bottom: 20px; /* Adjust the value as needed */
@@ -222,4 +249,10 @@ button:hover {
 
 .card-body p {
     color: var(--tertiary-color);
+}
+
+/* Add padding to the top of each section to account for the sticky navbar */
+section {
+    padding-top: 70px; /* Adjust this value based on the height of your navbar */
+    margin-top: -70px; /* Adjust this value to match the padding-top */
 }
