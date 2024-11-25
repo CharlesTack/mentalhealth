@@ -32,8 +32,8 @@ h1, h2, h3 {
 
 /* General text elements */
 h1, h2, h3, h4, h5, h6, p {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 /* Hero Section */
@@ -80,16 +80,40 @@ h1, h2, h3, h4, h5, h6, p {
 /* Navbar */
 .navbar {
     background-color: var(--highlight-color);
-    color: var (--tertiary-color);
+    color: var(--tertiary-color);
 }
 
 /* Navbar elements */
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+}
+
 .navbar-nav .nav-link, .navbar-brand {
     color: var(--tertiary-color) !important;
 }
 
 .navbar-nav .nav-link:hover, .navbar-brand:hover {
     color: var(--primary-color) !important; /* Optional: Change color on hover */
+}
+
+/* Center align the emergency button in the navbar */
+.navbar-nav button {
+    background-color: var(--highlight-color-light);
+    color: var(--background-color); /* Change text color to background color */
+    border: 1px solid black;
+    padding: 5px 10px; /* Decreased padding */
+    border-radius: 5px;
+    font-family: var(--primary-font);
+    font-weight: bold; /* Make text bold */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px; /* Optional: Add some space between the button and other elements */
+}
+
+.navbar-nav button:hover {
+    background-color: var(--tertiary-color);
+    color: var(--highlight-color-light); /* Reverse colors on hover */
 }
 
 /* Footer / Contact */
@@ -108,6 +132,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Add margin to the top of the symptoms section */
 #symptoms {
+    margin-top: 40px; /* Adjust the value as needed */
+}
+
+/* Add margin to the top of the Tips section */
+#tips {
+    margin-top: 40px; /* Adjust the value as needed */
+}
+
+/* Add margin to the top of the External section */
+#external {
     margin-top: 40px; /* Adjust the value as needed */
 }
 
@@ -165,4 +199,9 @@ button:hover {
 .carousel-caption .btn:hover {
     background-color: var(--tertiary-color);
     color: var(--highlight-color-light); /* Reverse colors on hover */
+}
+
+/* Add vertical space between card elements */
+.card {
+    margin-bottom: 20px; /* Adjust the value as needed */
 }
