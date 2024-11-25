@@ -205,3 +205,14 @@ button:hover {
 .card {
     margin-bottom: 20px; /* Adjust the value as needed */
 }
+
+/* Card text color and font */
+.card-body h5 {
+    color: var(--tertiary-color);
+    font-family: var(--secondary-font);
+    margin-bottom: 24px; /* Increased bottom margin */
+}
+
+.card-body p {
+    color: var(--tertiary-color);
+}
