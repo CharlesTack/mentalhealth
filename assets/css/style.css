@@ -183,6 +183,13 @@ button:hover {
     margin: 0 auto;
 }
 
+/* Carousel styles */
+.carousel {
+    border: 1px solid #dee2e6; /* to match Bootstrap card border color */
+    border-radius: 10px; /* Same corner rounding as cards */
+    overflow: hidden; /* Ensure the border radius is applied correctly */
+}
+
 /* Carousel button styles */
 .carousel-caption .btn {
     background-color: var(--highlight-color-light);
