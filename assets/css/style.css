@@ -30,6 +30,10 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
+/* Add padding to the top of each section for better layout */
+section {
+    padding-top: 2rem;
+}
 /* General text elements */
 h1, h2, h3, h4, h5, h6, p {
     margin-left: 12px;
@@ -231,7 +235,15 @@ button:hover {
     color: var(--tertiary-color);
 }
 
-/* Add padding to the top of each section to account for the sticky navbar */
-section {
-    padding-top: 2rem;
-}
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768px and up */
+@media screen and (min-width: 768px) {
+    /* Make all symptoms and tips cards the same height for consistency */
+    #symptoms-cards .card-body {
+        min-height: 280px;
+    }
+    #tips-cards .card-body {
+        min-height: 272px;
+    }
