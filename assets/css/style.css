@@ -248,3 +248,14 @@ button:hover {
         min-height: 272px;
     }
 }
+
+/* Larger devices (desktops, 1200px and up */
+@media screen and (min-width: 1200px) {
+    /* Make all symptoms and tips cards the same height for consistency */
+    #symptoms-cards .card-body {
+        min-height: 296px;
+    }
+    #tips-cards .card-body {
+        min-height: 296px;
+    }
+}
