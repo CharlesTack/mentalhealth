@@ -148,6 +148,24 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: 12px; /* Align with the left-hand edge of the text */
 }
 
+/* Styling to stand out */
+.el-card {
+    border: 1px solid #dee2e6; /* to match Bootstrap card border color */
+    background-color: white;
+    border-radius: 5px;
+    min-height: 230px;
+    position: relative; /* Ensure the button can be positioned relative to the card */
+    padding-bottom: 40px; /* Add space for the button at the bottom */
+    margin-top: 5px;
+}
+
+.el-card .visit-site-button {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* Disclaimer section */
 #disclaimer {
     margin-top: 40px; /* Adjust the value as needed */
@@ -249,13 +267,30 @@ button:hover {
     }
 }
 
+/* Large devices (desktops, 1024px and up */
+@media screen and (min-width: 1024px) {
+    /* Set the page's maximum width to 1024px */
+    body {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    /* Make all symptoms and tips cards the same height for consistency */
+    #symptoms-cards .card-body {
+        min-height: 260px;
+    }
+    #tips-cards .card-body {
+        min-height: 210px;
+    }
+}
+
 /* Larger devices (desktops, 1200px and up */
 @media screen and (min-width: 1200px) {
     /* Make all symptoms and tips cards the same height for consistency */
     #symptoms-cards .card-body {
-        min-height: 296px;
+        min-height: 368px;
     }
     #tips-cards .card-body {
-        min-height: 296px;
+        min-height: 392px;
     }
 }
+
