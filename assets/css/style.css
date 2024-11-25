@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Navbar */
 .navbar {
     background-color: var(--highlight-color);
-    color: var(--tertiary-color);
+    color: var (--tertiary-color);
 }
 
 /* Navbar elements */
@@ -104,4 +104,65 @@ h1, h2, h3, h4, h5, h6, p {
 /* Add margin to the top of the welcome section */
 #weclome {
     margin-top: 20px; /* Adjust the value as needed */
+}
+
+/* Add margin to the top of the symptoms section */
+#symptoms {
+    margin-top: 40px; /* Adjust the value as needed */
+}
+
+/* Disclaimer section */
+#disclaimer {
+    margin-top: 40px; /* Adjust the value as needed */
+    border: 5px solid black;
+    background-color: var(--tertiary-color);
+    padding: 20px; /* Add some padding inside the box */
+}
+
+#disclaimer h2, #disclaimer p {
+    background-color: var(--background-color);
+    padding: 10px; /* Add some padding to the text elements */
+    border-radius: 5px; /* Optional: Add rounded corners to the text elements */
+}
+
+/* Button styles */
+button {
+    background-color: var(--highlight-color-light);
+    color: var(--background-color); /* Change text color to background color */
+    border: 1px solid black;
+    padding: 5px 10px; /* Decreased padding */
+    border-radius: 5px;
+    font-family: var(--primary-font);
+    font-weight: bold; /* Make text bold */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: var(--tertiary-color);
+    color: var(--highlight-color-light); /* Reverse colors on hover */
+}
+
+/* Center align buttons */
+#message button, #disclaimer button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Carousel button styles */
+.carousel-caption .btn {
+    background-color: var(--highlight-color-light);
+    color: var(--background-color); /* Change text color to background color */
+    border: 1px solid black;
+    padding: 5px 10px; /* Decreased padding */
+    border-radius: 5px;
+    font-family: var(--primary-font);
+    font-weight: bold; /* Make text bold */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.carousel-caption .btn:hover {
+    background-color: var(--tertiary-color);
+    color: var(--highlight-color-light); /* Reverse colors on hover */
 }
