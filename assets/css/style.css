@@ -35,12 +35,40 @@ h1, h2, h3 {
     background: /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */url('../images/hero/inndex-hero-image.jpg') no-repeat center center;
     background-size: cover;
     height: 30vh;
+    position: relative;
     color: #FFEBD4;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.hero .hero-box {
+    width: 66.67%; /* 2/3 of the hero image's width */
+    background-color: var(--background-color);
+    border: 2px solid var(--tertiary-color);
+    border-radius: 10px;
+    padding: 5px; /* Reduced padding */
+    position: absolute;
+    bottom: 5px; /* Position 5px above the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.hero .hero-box h2 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 0.75rem; /* Smaller font size */
+}
+
+.hero .hero-box p {
+    font-style: italic;
+    color: var(--tertiary-color);
+    font-size: 0.5rem; /* Smaller font size */
+    margin-bottom: 0; /* Remove margin from bottom */
+    padding-bottom: 0; /* Remove padding from bottom */
 }
 
 /* Navbar */
@@ -51,7 +79,7 @@ h1, h2, h3 {
 /* Footer / Contact */
 .footer {
     background-color: var(--highlight-color);
-    color: var(--tertiary-color);
+    color: var (--tertiary-color);
 }
 .footer i {
     color: var(--tertiary-color);
