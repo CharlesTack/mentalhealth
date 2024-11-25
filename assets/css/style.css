@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6, p {
 .hero .hero-box p {
     font-style: italic;
     color: var(--tertiary-color);
-    font-size: 0.5rem; /* Smaller font size */
+    font-size: 0.75rem; /* Smaller font size */
     margin-bottom: 0; /* Remove margin from bottom */
     padding-bottom: 0; /* Remove padding from bottom */
 }
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar {
     background-color: var(--highlight-color);
     color: var(--tertiary-color);
-    position: -webkit-sticky; /* For Safari */
+    position: -webkit-fixed; For Safari
     position: sticky;
     top: 0;
     z-index: 1000; /* Ensure it stays on top of other content */
@@ -146,6 +146,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 #external-links a button {
     margin-left: 12px; /* Align with the left-hand edge of the text */
+    position: absolute;
+    bottom: 10px;
 }
 
 /* Styling to stand out */
@@ -157,13 +159,6 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative; /* Ensure the button can be positioned relative to the card */
     padding-bottom: 40px; /* Add space for the button at the bottom */
     margin-top: 5px;
-}
-
-.el-card .visit-site-button {
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 /* Disclaimer section */
