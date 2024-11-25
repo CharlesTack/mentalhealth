@@ -25,6 +25,24 @@ body {
     box-sizing: border-box;
 }
 
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero {
+    background: /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */url('../images/hero/inndex-hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 30vh;
+    color: #FFEBD4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 /* Navbar */
 .navbar {
     background-color: var(--highlight-color);
