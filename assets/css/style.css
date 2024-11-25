@@ -130,24 +130,24 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Add margin to the top of the welcome section */
-#weclome {
-    margin-top: 20px; /* Adjust the value as needed */
-}
+/* #welcome {
+    margin-top: 20px; /* Adjust the value as needed
+} */
 
 /* Add margin to the top of the symptoms section */
-#symptoms {
-    margin-top: 40px; /* Adjust the value as needed */
-}
+/* #symptoms {
+    margin-top: 40px;
+} */
 
 /* Add margin to the top of the Tips section */
-#tips {
-    margin-top: 40px; /* Adjust the value as needed */
-}
+/* #tips {
+    margin-top: 40px;
+} */
 
 /* Add margin to the top of the External section */
-#external {
-    margin-top: 40px; /* Adjust the value as needed */
-}
+/* #external {
+    margin-top: 40px;
+} */
 
 /* External links section */
 #external-links {
@@ -253,6 +253,5 @@ button:hover {
 
 /* Add padding to the top of each section to account for the sticky navbar */
 section {
-    padding-top: 70px; /* Adjust this value based on the height of your navbar */
-    margin-top: -70px; /* Adjust this value to match the padding-top */
+    padding-top: 2rem;
 }
