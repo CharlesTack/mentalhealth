@@ -161,6 +161,7 @@ For testing multiple resources were used:
 1. [Chrome Dev Tools - Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 2. [W3 Markup Validation Service](https://validator.w3.org/)
 3. [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+4. Manual Testing
 
 
 Using the above resources I have tested all individual pages and noted all bugs found in [Bugs & Fixes] (https://github.com/charlestack/mentalhealth#bugs--fixes).
@@ -238,6 +239,20 @@ CSS:
 - .footer : Parse Error (--tertiary-color). _fixed_
 - .footer : Parse Error }. _fixed_
 
+### Manual Testing:
+
+- Manual testing was carried out on local and deployed sites.
+
+| Location   | Feature                           | Expected Outcome                                                                                      | Pass/Fail | Notes                 |
+| ---------- | --------------------------------- | ----------------------------------------------------------------------------------------------------- | --------- | --------------------- |
+| Nav Bar    | Logo, Website name and Home link  | Takes user to the home page from which ever screen they're on                                         | Pass      | Functions as expected |
+| Nav Bar    | Emergency Button                  | Takes user to the help.html page                                                                      | Pass      | Functions as expected |
+| Nav Bar    | Symptoms, Tips and External links | Takes user to the appropriate sections of the home page                                               | Pass      | Functions as expected |
+| Main       | Message Yourself Button           | Pops modal form to send message to yourself                                                           | Pass      | Functions as expected |
+| Modal Form | Form elements and Send button     | Form elements take input and the placeholder text is replaced. Send button returns user to home page. | Pass      | Functions as expected |
+| Main       | Carousel                          | Carousel rotates automatically and can be manually controlled with arrows.                            | Pass      | Functions as expected |
+| Main       | External links                    | Buttons labelled "Visit Site" take you to the respective external sites.                              | Pass      | Functions as expected |
+| Footer     | Social media links                | Social media default sites are opened when links are clicked.                                         | Pass      | Functions as expected |
 
 ## Deployment:
 
