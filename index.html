@@ -23,7 +23,7 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/favicon/favicon-32x32.png" alt="Mental Health Logo" width="30" height="30"
@@ -374,22 +374,28 @@
         <div class="modal-dialog model-lg">
             <div class="modal-content sharp-corners">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Message Yourself</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered straight to your inbox.</p>
+                    <p>Send yourself a message of positivity!</p>
+                    <p>Remembering that caring for yourself is the best start to feeling better, send yourself a message
+                        of appreciation for who you are and what you mean to people. Maybe message yourself about your
+                        future plans as a gesture of hope. Talk about your thoughts and feelings and be kind to yourself
+                        as if you are talking to a friend.</p>
+                    <p>Please note, these messages are not recorded, stored or sent anywhere. In future releases we may
+                        add functionality to have them emailed to you to collate and reflect upon.</p>
                     <form class="row g-3">
                         <div class="col-lg-6">
                             <label for="inputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputName">
+                            <input type="text" class="form-control" id="inputName" placeholder="(Optional)">
                         </div>
-                        <div class="col-lg-6">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail">
+                        <div class="col-12">
+                            <label for="inputMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="inputMessage" rows="10" placeholder="Write here..."></textarea>
                         </div>
                         <div class="col-12 mb-4">
-                            <button type="submit" class="btn btn-primary mid-blue-button">Sign up!</button>
+                            <button type="submit">Send</button>
                         </div>
                     </form>
                 </div>

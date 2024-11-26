@@ -85,10 +85,11 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar {
     background-color: var(--highlight-color);
     color: var(--tertiary-color);
-    position: -webkit-fixed; /* For Safari */
-    position: sticky;
-    top: 0;
-    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+#symptoms { 
+    scroll-margin-top: 80px;
+    scroll-margin-bottom: 100px;
 }
 
 /* Navbar elements */
@@ -163,7 +164,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Disclaimer section */
 #disclaimer {
-    margin-top: 40px; /* Adjust the value as needed */
+    /* margin-top: 40px;  */
+    /* Adjust the value as needed */
     border: 5px solid black;
     background-color: var(--tertiary-color);
     padding: 20px; /* Add some padding inside the box */
