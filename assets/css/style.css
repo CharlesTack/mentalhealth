@@ -7,12 +7,12 @@
 :root {
     --primary-font: "Noto", sans-serif;
     --secondary-font: "Paprika", cursive;
-    --background-color: #fbf5d8; /*pale yellow */
-    --primary-color: #668755; /* logo green */
-    --secondary-color: #97b76a; /* light green */
-    --tertiary-color: #4a3b3a; /* brown */
-    --highlight-color: #aabfda; /* light blue */
-    --highlight-color-light: #537c74; /* darker green */ 
+    --background-color: #fbf5d8; /*pale yellow - cornsilk*/
+    --primary-color: #668755; /* logo green - reseda green*/
+    --secondary-color: #97b76a; /* light green - olivine*/
+    --tertiary-color: #4a3b3a; /* brown - van dyke*/
+    --highlight-color: #aabfda; /* light blue - powder blue*/
+    --highlight-color-light: #537c74; /* darker green - hooker's green*/ 
 }
 
 /* Body Section */
