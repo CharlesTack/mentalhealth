@@ -146,7 +146,10 @@ During development, there were tweaks to the wireframes which were recorded via 
 ### AI usage:
 
 Copilot in VS Code was used extensively to assist and accelerate code generation in both HTML and CSS.
-Prompts used were clear and concise to reach the required objectives, though there were occasions where Copilot was unable to successfully fix bugs (for instance the navbar scrolling issue mentioned in [Bugs & Fixes](https://github.com/charlestack/mentalhealth#bugs--fixes)).
+Copliot was also used to debug issues such as highlighting why buttons were not aligning with text in the same section.  Prompts used were clear and concise to reach the required objectives, though there were occasions where Copilot was unable to successfully fix bugs (for instance the navbar scrolling issue mentioned in [Bugs & Fixes](https://github.com/charlestack/mentalhealth#bugs--fixes)).
+
+Copilot was also consulted on performance improvement and optimisation, and a list of 12 points for improvements were provided, although many would be impractical (such as "Improve Server Response Time").  Certain other suggestions were very valid and could be used to further improve this project and for future projects (such as using the WebP format for images).
+
 AI tools were also used in image creation as mentioned in [Images](https://github.com/CharlesTack/mentalhealth#images).
 
 ## Testing:
