@@ -93,7 +93,9 @@
                 </p>
                 <p>Click the button below to open a pop up window to send yourtself a message!</p>
                 <!-- Placeholder button -->
-                <button>Message Yourself</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#message-modal">
+                    Message Yourself
+                </button>
             </div>
         </section>
 
@@ -366,6 +368,34 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="message-modal" tabindex="-1" aria-labelledby="message-modal-label" aria-hidden="true">
+        <div class="modal-dialog model-lg">
+            <div class="modal-content sharp-corners">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered straight to your inbox.</p>
+                    <form class="row g-3">
+                        <div class="col-lg-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-12 mb-4">
+                            <button type="submit" class="btn btn-primary mid-blue-button">Sign up!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Font Awesome Source -->
     <script src="https://kit.fontawesome.com/17f6269fc0.js" crossorigin="anonymous"></script>
