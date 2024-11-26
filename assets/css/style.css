@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Footer / Contact */
 .footer {
     background-color: var(--highlight-color);
-    color: var (--tertiary-color);
+    color: var(--tertiary-color);
 }
 .footer i {
     color: var(--tertiary-color);
