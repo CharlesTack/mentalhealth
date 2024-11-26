@@ -134,37 +134,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--tertiary-color);
 }
 
-/* External links section */
-#external-links {
-    margin-bottom: 40px; /* Adjust the value as needed to increase the gap */
-}
 
-#external-links h4 {
-    font-family: var(--secondary-font);
-    margin-top: 20px; /* Adjust the value as needed to spread them out */
-    color: var(--primary-color); /* Change color to primary-color */
-}
-
-#external-links a button {
-    margin-left: 12px; /* Align with the left-hand edge of the text */
-    position: absolute;
-    bottom: 10px;
-}
-
-/* Styling to stand out */
-.el-card {
-    border: 1px solid #dee2e6; /* to match Bootstrap card border color */
-    background-color: white;
-    border-radius: 5px;
-    min-height: 230px;
-    position: relative; /* Ensure the button can be positioned relative to the card */
-    padding-bottom: 40px; /* Add space for the button at the bottom */
-    margin-top: 5px;
-}
-
-#external-carousel-header {
-    display: none; /* Hide the carousel header */
-}
 
 /* Disclaimer section */
 #disclaimer {
@@ -236,6 +206,38 @@ button:hover {
     background-color: var(--tertiary-color);
     border-radius: 50%;
     padding: 10px; /* Optional: Add some padding for better visibility */
+}
+
+/* External links section */
+#external-links {
+    margin-bottom: 40px; /* Adjust the value as needed to increase the gap */
+}
+
+#external-links h4 {
+    font-family: var(--secondary-font);
+    margin-top: 20px; /* Adjust the value as needed to spread them out */
+    color: var(--primary-color); /* Change color to primary-color */
+}
+
+#external-links a button {
+    margin-left: 12px; /* Align with the left-hand edge of the text */
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Styling to stand out */
+.el-card {
+    border: 1px solid #dee2e6; /* to match Bootstrap card border color */
+    background-color: white;
+    border-radius: 5px;
+    min-height: 230px;
+    position: relative; /* Ensure the button can be positioned relative to the card */
+    padding-bottom: 40px; /* Add space for the button at the bottom */
+    margin-top: 5px;
+}
+
+#external-carousel-header {
+    display: none; /* Hide the carousel header */
 }
 
 /* Add vertical space between card elements */
