@@ -138,8 +138,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Disclaimer section */
 #disclaimer {
-    /* margin-top: 40px;  */
-    /* Adjust the value as needed */
     border: 5px solid black;
     background-color: var(--tertiary-color);
     padding: 20px; /* Add some padding inside the box */
