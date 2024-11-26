@@ -24,9 +24,9 @@
   - [Colours](https://github.com/CharlesTack/mentalhealth#colours)
   - [Images](https://github.com/CharlesTack/mentalhealth#images)
   - [Wireframes](https://github.com/CharlesTack/mentalhealth#wireframes)
-    - [Desktop](https://github.com/CharlesTack/mentalhealth#desktop)
-    - [Tablet](https://github.com/CharlesTack/mentalhealth#tablet)
     - [Mobile](https://github.com/CharlesTack/mentalhealth#mobile)
+    - [Tablet](https://github.com/CharlesTack/mentalhealth#tablet)
+    - [Desktop](https://github.com/CharlesTack/mentalhealth#desktop)
 
 - [Technologies](https://github.com/CharlesTack/mentalhealth#technologies)
 - [Testing](https://github.com/CharlesTack/mentalhealth#testing)
