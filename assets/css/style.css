@@ -264,8 +264,15 @@ button:hover {
     border-radius: 5px;
     min-height: 230px;
     position: relative; /* Ensure the button can be positioned relative to the card */
-    padding-bottom: 40px; /* Add space for the button at the bottom */
+    padding-bottom: 50px; /* Adjust as needed to ensure space for the button */
     margin-top: 5px;
+}
+
+.external-link {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 0;   /* Align with the left edge of the text */
+    margin-left: 23px; /* Adjust as needed to match the text alignment */
 }
 
 #external-carousel-header {
@@ -288,6 +295,10 @@ button:hover {
     color: var(--tertiary-color);
 }
 
+/* Center text */
+.text-center {
+    text-align: center;
+}
 
 /* Media Queries */
 
