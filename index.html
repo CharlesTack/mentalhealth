@@ -391,7 +391,8 @@
                         </div>
                         <div class="col-12">
                             <label for="inputMessage" class="form-label">Message</label>
-                            <textarea class="form-control" id="inputMessage" rows="10" placeholder="Write here..."></textarea>
+                            <textarea class="form-control" id="inputMessage" rows="10"
+                                placeholder="Write here..."></textarea>
                         </div>
                         <div class="col-12 mb-4">
                             <button type="submit">Send</button>
@@ -417,14 +418,18 @@
                     let section = document.querySelector(e.target.getAttribute("href"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
+
+                        // Collapse the navbar
+                        let navbarCollapse = document.querySelector(".navbar-collapse");
+                        navbarCollapse.classList.remove("show");
+                        // Wait for the navbar to collapse before scrolling
+                        setTimeout(() => {
+                            let navbarHeight = document.querySelector(".navbar").offsetHeight;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                behavior: "smooth",
+                            });
+                        }, 300); // Adjust delay as needed for animation duration
                     }
                 });
             });
