@@ -143,6 +143,12 @@ During development, there were tweaks to the wireframes which were recorded via 
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [MARKDOWN](https://en.wikipedia.org/wiki/Markdown)
 
+### AI usage:
+
+Copilot in VS Code was used extensively to assist and accelerate code generation in both HTML and CSS.
+Prompts used were clear and concise to reach the required objectives, though there were occasions where Copilot was unable to successfully fix bugs (for instance the navbar scrolling issue mentioned in [Bugs & Fixes](https://github.com/charlestack/mentalhealth#bugs--fixes)).
+AI tools were also used in image creation as mentioned in [Images](https://github.com/CharlesTack/mentalhealth#images).
+
 ## Testing:
 
 For testing multiple resources were used:
@@ -183,7 +189,7 @@ This would indicate that whilst the colour combinations may be calming, they are
 
 ### Testing Results:
 
-W3 validation testing was carried out and a number of errors were highlighted which have been fixed, see [Bugs & Fixes] (https://github.com/charlestack/mentalhealth#bugs--fixes).
+W3 validation testing was carried out and a number of errors were highlighted which have been fixed, see [Bugs & Fixes](https://github.com/charlestack/mentalhealth#bugs--fixes).
 W3 validation completed as clear of any errors or warnings, except for the warning regarding the h1 element on line 77 of index.html which was maintained as the appearance of the h1 element marks the true stylistic start of the page (with the preceding h2 element being in the hero section).
 
 ### Lighthouse Results:
