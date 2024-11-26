@@ -15,7 +15,7 @@
 ## Table of Contents:
 
 - [The Why](https://github.com/CharlesTack/mentalhealth#the-why)
-- [(UX) User Experiance](https://github.com/CharlesTack/mentalhealth#ux-user-experiance)
+- [(UX) User Experience](https://github.com/CharlesTack/mentalhealth#ux-user-experiance)
 
 - [Design](https://github.com/CharlesTack/mentalhealth#design)
 
