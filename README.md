@@ -153,6 +153,20 @@ For testing multiple resources were used:
 Using the above resources I have tested all individual pages and noted all bugs found in [Bugs & Fixes] (https://github.com/charlestack/mentalhealth#bugs--fixes).
 I have also used peer review for a "fresh set of eyes" to help pick out any issues I may have missed.
 
+The site has been thoroughly tested on the following devices:
+- Samsung Galaxy S20 FE
+- Samsung Galaxy Tab S8
+- Apple iPad (10th Gen)
+- HP Elite Dragonfly 13" Laptop
+- PC Specialist Gaming Desktop with MSI Ultra Widescreen monitor at 2560 x 1080
+
+The site has also been tested on the following browsers:
+- Google Chrome
+- Microsoft Edge
+- Apple Safari
+- Mozilla Firefox
+- Opera
+
 ### Testing Results:
 
 W3 validation testing was carried out and a number of errors were highlighted which have been fixed, see [Bugs & Fixes] (https://github.com/charlestack/mentalhealth#bugs--fixes).
