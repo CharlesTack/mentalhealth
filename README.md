@@ -59,7 +59,9 @@ Users are likely to have an interest in mental health conditions, but as they ma
 ### Future ideas:
 
 - Implement a section of positive affirmation messages for regular visitors to refer to.
-- Add ability to email positive messages to self
+- Add ability to email positive messages to self.
+- Increase contrast between colours for greater accessibility.
+- Add section for mental health careers.
 
 ## Design:
 
@@ -166,6 +168,18 @@ The site has also been tested on the following browsers:
 - Apple Safari
 - Mozilla Firefox
 - Opera
+
+The colours used on the site in combination with each other have been analysed by the [WebAIM](https://webaim.org/resources/contrastchecker/) contrast checker which provided the following results (a score out of 5 to display how many of their tests each combination passed, as well as the contrast ratio):
+
+- Brown (#4A3B3A) on blue (#AABFDA): 4/5 (contrast ratio: 5.64:1)
+- Yellow (#FBF5D8) on dark green (#537C74): 2/5 (contrast ratio: 4.25:1)
+- Brown (#4A3B3A) on green (#97B76A): 4/5 (contrast ratio: 4.7:1)
+- Green (#668755) on yellow (#FBF5D8): 2/5 (contrast ratio: 3.71:1)
+- Brown (#4A3B3A) on yellow (#FBF5D8): 5/5 (contrast ratio: 9.68:1)
+- Brown (#4A3B3A) on white (#FFFFFF): 5/5 (contrast ratio: 10.61:1)
+- Green (#668755) on white (#FFFFFF): 2/5 (contrast ratio: 4.06:1)
+
+This would indicate that whilst the colour combinations may be calming, they are not necessarily best used together for accessibility, though it should be noted that the lowest scored combinations are used where the text is either a header or bold.
 
 ### Testing Results:
 
