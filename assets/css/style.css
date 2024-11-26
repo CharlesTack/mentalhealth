@@ -162,6 +162,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 5px;
 }
 
+#external-carousel-header {
+    display: none; /* Hide the carousel header */
+}
+
 /* Disclaimer section */
 #disclaimer {
     /* margin-top: 40px;  */
