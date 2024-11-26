@@ -152,6 +152,8 @@ Copilot was also consulted on performance improvement and optimisation, and a li
 
 AI tools were also used in image creation as mentioned in [Images](https://github.com/CharlesTack/mentalhealth#images).
 
+As a general reflection on the use of AI on this project, it has been a source of frustration (for example when trying to get AI tools to create images which look like they've been produced by the same artist) and a source of tremendous benefit in the time saved when coding manually.  AI tools should be used in moderation.  I felt that I would have been better to code manually at times to help with personally debugging issues, rather than relying on Copilot to debug itself.
+
 ## Testing:
 
 For testing multiple resources were used:
