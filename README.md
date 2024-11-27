@@ -193,7 +193,16 @@ The W3 CSS validation did present 10 warnings, but as these are in respect of th
 
 Images of pass & warning messages below and full page images stored in the directory.
 
+- W3 index.html Result:
 
+![W3 index.html result](assets/images/w3validation/w3index.jpg)
+- W3 help.html Result:
+
+![W3 help.html result](assets/images/w3validation/w3help.jpg)
+
+- W3 CSS Result:
+
+![W3 CSS result](assets/images/w3validation/w3css.jpg)
 
 ### Lighthouse Results:
 
