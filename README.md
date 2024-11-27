@@ -189,6 +189,12 @@ W3 validation testing was carried out and a number of errors were highlighted wh
 
 W3 validation completed as clear of any errors or warnings, except for the warning regarding the h1 element on line 77 of index.html which was maintained as the appearance of the h1 element marks the true stylistic start of the page (with the preceding h2 element being in the hero section).
 
+The W3 CSS validation did present 10 warnings, but as these are in respect of the usage of variables and imported style sheets (i.e. Bootstrap) they can be ignored.
+
+Images of pass & warning messages below and full page images stored in the directory.
+
+
+
 ### Lighthouse Results:
 
 - index.html
