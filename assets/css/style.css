@@ -236,6 +236,7 @@ button:hover {
     border: 1px solid #dee2e6; /* to match Bootstrap card border color */
     border-radius: 10px; /* Same corner rounding as cards */
     overflow: hidden; /* Ensure the border radius is applied correctly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Carousel button styles */
