@@ -114,9 +114,11 @@ Page content was written by Charles Tack with some assistance from Copilot and e
 ### Wireframes:
 
 The basic structure of the site was sketched out on the Noteshelf app and then with the use of the software [BALSAMIQ](https://balsamiq.com/) the sketches were converted into a more professional and realistic looking guide.
-During development, there were tweaks to the wireframes which were recorded via version progression (v1.0 through to v1.2).  Images of the v1.3 version are below and original Balsamiq files are included in the directory.
+During development, there were tweaks to the wireframes which were recorded via version progression (v1.0 through to v1.2).  Example images of the help page from the v1.2 version are below, with links to other 1.2 images following and the original Balsamiq files for each version are included in the Balsamiq folder in the directory.
 
 #### Mobile:
+
+![help mobile](assets/images/wireframes/mobile-help.jpg)
 
 - [index.html](assets/images/wireframes/mobile-index.jpg)
 - [help.html](assets/images/wireframes/mobile-help.jpg)
@@ -124,11 +126,15 @@ During development, there were tweaks to the wireframes which were recorded via 
 
 #### Tablet:
 
+![help tablet](assets/images/wireframes/tablet-help.jpg)
+
 - [index.html](assets/images/wireframes/tablet-index.jpg)
 - [help.html](assets/images/wireframes/tablet-help.jpg)
 - [message-modal](assets/images/wireframes/tablet-modal.jpg)
 
 #### Desktop:
+
+![help desktop](assets/images/wireframes/desktop-help.jpg)
 
 - [index.html](assets/images/wireframes/desktop-index.jpg)
 - [help.html](assets/images/wireframes/desktop-help.jpg)
