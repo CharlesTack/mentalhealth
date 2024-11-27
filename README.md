@@ -158,16 +158,17 @@ As a general reflection on the use of AI on this project, it has been a source o
 
 For testing multiple resources were used:
 
-1. [Chrome Dev Tools - Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-2. [W3 Markup Validation Service](https://validator.w3.org/)
-3. [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+1. [W3 Markup Validation Service](https://validator.w3.org/)
+2. [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+3. [Chrome Dev Tools - Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 4. Manual Testing
+5. [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 
 Using the above resources I have tested all individual pages and noted all bugs found in [Bugs & Fixes] (https://github.com/charlestack/mentalhealth#bugs--fixes).
 I have also used peer review for a "fresh set of eyes" to help pick out any issues I may have missed.
 
-The site has been thoroughly tested on the following devices:
+The site has been manually tested on the following devices:
 - Samsung Galaxy S20 FE
 - Samsung Galaxy Tab S8
 - Apple iPad (10th Gen)
@@ -181,21 +182,11 @@ The site has also been tested on the following browsers:
 - Mozilla Firefox
 - Opera
 
-The colours used on the site in combination with each other have been analysed by the [WebAIM](https://webaim.org/resources/contrastchecker/) contrast checker which provided the following results (a score out of 5 to display how many of their tests each combination passed, as well as the contrast ratio):
-
-- Brown (#4A3B3A) on blue (#AABFDA): 4/5 (contrast ratio: 5.64:1)
-- Yellow (#FBF5D8) on dark green (#537C74): 2/5 (contrast ratio: 4.25:1)
-- Brown (#4A3B3A) on green (#97B76A): 4/5 (contrast ratio: 4.7:1)
-- Green (#668755) on yellow (#FBF5D8): 2/5 (contrast ratio: 3.71:1)
-- Brown (#4A3B3A) on yellow (#FBF5D8): 5/5 (contrast ratio: 9.68:1)
-- Brown (#4A3B3A) on white (#FFFFFF): 5/5 (contrast ratio: 10.61:1)
-- Green (#668755) on white (#FFFFFF): 2/5 (contrast ratio: 4.06:1)
-
-This would indicate that whilst the colour combinations may be calming, they are not necessarily best used together for accessibility, though it should be noted that the lowest scored combinations are used where the text is either a header or bold.
 
 ### Testing Results:
 
-W3 validation testing was carried out and a number of errors were highlighted which have been fixed, see [Bugs & Fixes](https://github.com/charlestack/mentalhealth#bugs--fixes).
+W3 validation testing was carried out and a number of errors were highlighted which have been fixed, please see [Bugs & Fixes](https://github.com/charlestack/mentalhealth#bugs--fixes) for details.
+
 W3 validation completed as clear of any errors or warnings, except for the warning regarding the h1 element on line 77 of index.html which was maintained as the appearance of the h1 element marks the true stylistic start of the page (with the preceding h2 element being in the hero section).
 
 ### Lighthouse Results:
@@ -207,9 +198,26 @@ W3 validation completed as clear of any errors or warnings, except for the warni
   - [Desktop](assets/images/lighthouse/lh-desktop-help.jpg)
   - [Mobile](assets/images/lighthouse/lh-mobile-help.jpg)
 
+Tabulated:
+- Mobile:
+
+| Page       | Performance | Accessibility | Best Practices | SEO |
+| ---------- | ----------- | ------------- | -------------- | --- |
+| index.html | 80          | 94            | 96             | 100 |
+| help.html  | 94          | 98            | 96             | 100 |
+
+- Desktop:
+
+| Page       | Performance | Accessibility | Best Practices | SEO |
+| ---------- | ----------- | ------------- | -------------- | --- |
+| index.html | 97          | 89            | 100            | 100 |
+| help.html  | 99          | 93            | 100            | 100 |
+
+The Lighthouse advice was to reduce image file sizes by using modern file types, such as WebP, which will be considered for site updates as well as future projects. 
+
 ### Bugs & Fixes:
 
-- Send message doesn't deliver user to success page as success page hasn't been created.
+- Send message doesn't deliver user to success page as success page hasn't been created. _not fixed_
 - Auto-scrolling to sections on index.html from the navbar links didn't result in the right area being scrolled to.  Identified that the height of the un-collapsed menu was causing the issue and need to JavaScript to use a time-out instruction needed. _fixed_
 - Navbar wouldn't auto collapse in mobile view. _fixed_
 
@@ -228,7 +236,7 @@ index.html:
 - The element button must not appear as a descendant of the a element.  From line 329, column 29; to line 329, column 62. _fixed_
 - The element button must not appear as a descendant of the a element.  From line 338, column 29; to line 338, column 62. _fixed_
 - The aria-labelledby attribute must point to an element in the same document.  From line 372, column 5; to line 372, column 118. _fixed_
-- (Warning) Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).  From line 77, column 17; to line 77, column 20.
+- (Warning) Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).  From line 77, column 17; to line 77, column 20. _not fixed_
 
 help.html:
 - No p element in scope but a p end tag seen.  From line 80, column 17; to line 80, column 20. _fixed_
@@ -241,7 +249,7 @@ CSS:
 
 ### Manual Testing:
 
-- Manual testing was carried out on local and deployed sites.
+- Manual testing was carried out on local and deployed sites using a variety of devices and browsers (see earlier in this section).
 
 | Location   | Feature                           | Expected Outcome                                                                                      | Pass/Fail | Notes                 |
 | ---------- | --------------------------------- | ----------------------------------------------------------------------------------------------------- | --------- | --------------------- |
@@ -253,6 +261,21 @@ CSS:
 | Main       | Carousel                          | Carousel rotates automatically and can be manually controlled with arrows.                            | Pass      | Functions as expected |
 | Main       | External links                    | Buttons labelled "Visit Site" take you to the respective external sites.                              | Pass      | Functions as expected |
 | Footer     | Social media links                | Social media default sites are opened when links are clicked.                                         | Pass      | Functions as expected |
+
+
+### WebAIM Testing:
+
+The colours used on the site in combination with each other have been analysed by the [WebAIM](https://webaim.org/resources/contrastchecker/) contrast checker which provided the following results (a score out of 5 to display how many of their tests each combination passed, as well as the contrast ratio):
+
+- Brown (#4A3B3A) on blue (#AABFDA): 4/5 (contrast ratio: 5.64:1)
+- Yellow (#FBF5D8) on dark green (#537C74): 2/5 (contrast ratio: 4.25:1)
+- Brown (#4A3B3A) on green (#97B76A): 4/5 (contrast ratio: 4.7:1)
+- Green (#668755) on yellow (#FBF5D8): 2/5 (contrast ratio: 3.71:1)
+- Brown (#4A3B3A) on yellow (#FBF5D8): 5/5 (contrast ratio: 9.68:1)
+- Brown (#4A3B3A) on white (#FFFFFF): 5/5 (contrast ratio: 10.61:1)
+- Green (#668755) on white (#FFFFFF): 2/5 (contrast ratio: 4.06:1)
+
+This would indicate that whilst the colour combinations may be calming, they are not necessarily best used together for accessibility, though it should be noted that the lowest scored combinations are used where the text is either a header or bold.
 
 ## Deployment:
 
