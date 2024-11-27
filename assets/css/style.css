@@ -364,6 +364,10 @@ button:hover {
     #tips-cards .card-body {
         min-height: 210px;
     }
+    /* change width of modal form window */
+    .modal-dialog {
+        max-width: 75%;
+    }
 }
 
 /* Larger devices (desktops, 1200px and up */
@@ -374,5 +378,23 @@ button:hover {
     }
     #tips-cards .card-body {
         min-height: 416px;
+    }
+}
+
+/* Extra large devices (large desktops, 1350px and up) */
+/* Width selected specifically for modal window */
+@media screen and (min-width: 1350px) {
+    /* change width of modal form window */
+    .modal-dialog {
+        max-width: 60%;
+    }
+}
+
+/* Even larger devices (larger desktops with 4K screens, 1650px and up) */
+/* Width selected specifically for modal window */
+@media screen and (min-width: 1650px) {
+    /* change width of modal form window */
+    .modal-dialog {
+        max-width: 940px;
     }
 }
