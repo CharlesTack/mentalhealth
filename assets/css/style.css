@@ -147,7 +147,11 @@ button:hover {
     color: var(--highlight-color-light); /* Reverse colors on hover */
 }
 
-
+/* Make the text in the Navbar slightly heavier */
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-weight: 600;
+}
 
 /* Header/Hero Section */
 .hero {
@@ -193,9 +197,10 @@ button:hover {
 
 /* Symptoms & Tips Sections */
 
-/* Add vertical space between card elements */
+/* Add vertical space between card elements and add shadow */
 .card {
     margin-bottom: 20px; /* Adjust the value as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Card text color and font */
@@ -285,6 +290,7 @@ button:hover {
     position: relative; /* Ensure the button can be positioned relative to the card */
     padding-bottom: 50px; /* Adjust as needed to ensure space for the button */
     margin-top: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .external-link {
@@ -304,7 +310,19 @@ button:hover {
 .footer {
     background-color: var(--highlight-color);
     color: var(--tertiary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Optional: to center horizontally as well */
+    height: 50px; /* Adjust the height as needed */
+    padding: 0 20px; /* Optional: add padding if needed */
+    text-align: center; /* Optional: center text inside the footer */
 }
+
+.footer p, .footer a {
+    margin: 0; /* Remove default margins */
+    line-height: 1.5; /* Adjust line height if needed */
+}
+
 .footer i {
     color: var(--tertiary-color);
 }
@@ -355,6 +373,6 @@ button:hover {
         min-height: 368px;
     }
     #tips-cards .card-body {
-        min-height: 392px;
+        min-height: 416px;
     }
 }
