@@ -302,7 +302,7 @@ This would indicate that whilst the colour combinations may be calming, they are
 
 ### Deployment to GitHub Pages
 
-1. Visit [Github](www.github.com).
+1. Visit [Github](https://www.github.com).
 2. Navigate to the [charlestack/mentalhealth](https://github.com/CharlesTack/mentalhealth) repository.
 3. Click settings along the top options bar.
 4. Click pages found at the bottom of the left hand navigation bar.
